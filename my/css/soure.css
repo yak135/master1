@@ -1,0 +1,80 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	left: 50%;
+}
+img:hover:{
+    content: "School webside Html Css";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+}
+.read-more-btn {
+  padding: 15px 60px;
+  background-color: rgb(149, 170, 197);
+  color: rgb(53, 49, 49);
+  border: none;
+  outline: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+.common-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 6rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.common-heading::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--helper);
+}
+
+.common-heading::after {
+  content: "";
+  position: absolute;
+  top: 128%;
+  left: 1.5rem;
+  width: 30%;
+  height: 0.3rem;
+  background: var(--helper);
+}
+.common-heading {
+  font-size: 4.8rem;
+  font-weight: 700;
+  margin-bottom: 6rem;
+  text-transform: capitalize;
+  position: relative;
+}
+
+.common-heading::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background: var(--helper);
+}
+
+.common-heading::after {
+  content: "";
+  position: absolute;
+  top: 128%;
+  left: 1.5rem;
+  width: 30%;
+  height: 0.3rem;
+  background: var(--helper);
+}
